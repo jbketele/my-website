@@ -60,13 +60,12 @@ section {
 
 h1 {
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: green;
     color: rgba(255, 255, 255, 0.7);
     font-style: italic;
 }
 
 .name {
-    margin-top: 38vh;
+    margin-top: 25vh;
 }
 
 .moodboard {
