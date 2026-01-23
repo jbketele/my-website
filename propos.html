@@ -44,11 +44,23 @@
         }
 
         @media (min-width:767px) {
+            a {
+                color: black;
+                text-decoration: none;
+            }
 
+            a:hover {
+                color: black;
+                opacity: 0.7;
+            }
 
             body {
                 background-image: url(imgs/field-with-spikelets-close-up-background-with-wheat-spikelets.jpg);
                 background-size: 100vw;
+            }
+
+            .left-part {
+                margin-top: -80px;
             }
 
             .title-about {
@@ -72,10 +84,21 @@
                 display: flex;
                 width: 100%;
                 justify-content: space-evenly;
+                margin-top: 10px;
+            }
+
+            .asso {
+                width: 40%;
+            }
+
+            .asso p {
+                font-style: italic;
+                margin-top: 5px;
             }
 
             .asso-logo {
-                width: 33%;
+                width: 100%;
+                height: 175px;
             }
 
             .propos-content {
@@ -110,13 +133,23 @@
         À propos</h1>
     <div class="container">
         <div class="propos-content">
-            <div class="d-flex flex-column align-items-center">
+            <div class="left-part d-flex flex-column align-items-center">
                 <img src="imgs/portrait.PNG" class="portrait">
                 <h4 class="name">JEAN-BAPTISTE KÉTÈLE</h4>
+                <p>Email : <a href="mailto:jbaptisteketele@gmail.com">jbaptisteketele@gmail.com</a></p>
+                <a class="btn btn-primary" target="_blank"
+                    href="https://www.linkedin.com/in/jean-baptiste-kétèle-46673b233">Linkedin</a>
+                <br>
                 <h5>Engagements</h5>
-                <div class="asso-logos"><img class="asso-logo" src="imgs/sc14.jpg"
-                        alt="Secours Catholique Orne-Calvados">
-                    <img src="imgs/woof-australia.jpeg" alt="WWOOF Australia" class="asso-logo">
+                <div class="asso-logos">
+                    <div class="asso">
+                        <img class="asso-logo" src="imgs/sc14.jpg" alt="Secours Catholique Orne-Calvados">
+                        <p>Bénévolat en communication</p>
+                    </div>
+                    <div class="asso">
+                        <img src="imgs/woof-australia.jpeg" alt="WWOOF Australia" class="asso-logo">
+                        <p>Échange de de travail contre hébergement et repas</p>
+                    </div>
                 </div>
 
             </div>
