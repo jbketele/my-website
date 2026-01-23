@@ -51,12 +51,44 @@
                 background-size: 100vw;
             }
 
-            .propos {
-                width: 50vw;
+            .title-about {
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 60px;
+            }
+
+            .portrait {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            .name {
+                margin-top: 25px;
+            }
+
+            .asso-logos {
+                display: flex;
+                width: 100%;
+                justify-content: space-evenly;
+            }
+
+            .asso-logo {
+                width: 33%;
             }
 
             .propos-content {
+                display: grid;
+                grid-template-columns: 30% 70%;
+            }
+
+            .cv {
                 display: flex;
+            }
+
+            .cv div {
+                width: 100%;
             }
         }
 
@@ -73,88 +105,99 @@
 </head>
 
 <body>
-    <header class="menu d-flex">
-        <a href="index.html">
-            <img src="imgs/my-logo-fr_.png" class="logo mt-3" alt="">
-        </a>
-        <nav class="navbar navbar-expand-sm">
-            <div class="container">
-                <ul class="navbar-nav">
-                    <li class="nav-item mt-1">
-                        <a class="navbar-brand text-dark" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-dark" href="histo.html">Historique</a>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Réalisations
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="photos.html">Photos</a></li>
-                            <li><a class="dropdown-item" href="videos.html">Vidéos</a></li>
-                            <li><a class="dropdown-item" href="social-media.html">Réseaux Sociaux</a></li>
-                            <li><a class="dropdown-item" href="dev.html">Développement Web</a></li>
-                            <li><a class="dropdown-item" href="design.html">Design Web</a></li>
-                            <li><a class="dropdown-item" href="realisations.html">Tous</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-dark" href="propos.html">À propos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-                <ul class="social">
-                    <li><a href="https://www.facebook.com/jean.bapt.ketele" target="_blank"><i class="bi bi-facebook"
-                                style="font-size: 2rem;"></i></a></li>
-
-                    <li><a href="http://instagram.com/jbaptiste.ktl" target="_blank"><i class="bi bi-instagram"
-                                style="font-size: 2rem; color: #7232BD;"></i></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCkGqOFKJUpH4UWUP80w8eTQ" target="_blank"><i
-                                class="bi bi-youtube" style="font-size: 2rem; color: red;"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/jean-baptiste-k%C3%A9t%C3%A8le-46673b233/"
-                            target="_blank"><i class="bi bi-linkedin" style="font-size: 2rem;"></i></a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div id="header"></div>
+    <h1 class="title-about">
+        À propos</h1>
     <div class="container">
-        <h2 class="text-center text-white"
-            style="margin-top: 5vh;margin-bottom: 5vh; padding-top: 2vh;padding-bottom: 2vh; backdrop-filter: brightness(0.5)">
-            À propos</h2>
-        <div class="propos-content d-flex flex-wrap">
-            <img src="imgs/IMG_4059.JPG" style="width: 50vh; margin-bottom: 2rem;">
-            <div class="propos container">
-                <h4 class="text-center">JEAN-BAPTISTE KÉTÈLE</h4>
-                <p>Après avoir travaillé plusieurs années dans la ferme familiale, je me suis rendu compte que le monde
-                    du digital m'intéressait davantage. De plus, c'est un monde qui évolue constamment. J'ai donc
-                    commencé par le marketing digital en obtenant un Titre pro Chargé de
-                    communication et Webmarketing (Bac +2). Je prépare en ce moment un Titre pro Développeur web et web
-                    mobile.</p>
-                <p>Par la suite, je souhaite trouver un emploi dans la création de sites Web.</p>
-                <a class="btn btn-primary mb-3" href="https://linktr.ee/jbktl" target="_blank">En savoir plus</a>
-                <a class="btn btn-danger mb-3" href="imgs/CV-web.pdf" download="CV JB Kétèle.pdf">Télécharger mon CV</a>
+        <div class="propos-content">
+            <div class="d-flex flex-column align-items-center">
+                <img src="imgs/portrait.PNG" class="portrait">
+                <h4 class="name">JEAN-BAPTISTE KÉTÈLE</h4>
+                <h5>Engagements</h5>
+                <div class="asso-logos"><img class="asso-logo" src="imgs/sc14.jpg"
+                        alt="Secours Catholique Orne-Calvados">
+                    <img src="imgs/woof-australia.jpeg" alt="WWOOF Australia" class="asso-logo">
+                </div>
+
             </div>
-            <div id="mapid" style="width: 75vw; height: 50vh; margin-left: 10vw;"></div>
+
+            <div class="propos container">
+                <p>Passionné par les projets numériques et les solutions claires, je cherche à transformer des idées en
+                    expériences simples et efficaces pour les utilisateurs.
+                </p>
+                <div class="cv">
+                    <div class="experiences">
+                        <h5>Expériences</h5>
+                        <ul>
+                            <li>2023 <br>
+                                <b>Assistant communication et e-commerce</b>
+                                <br>
+                                <em>Paille Éditions (Mayenne)</em>
+                                <ul>
+                                    <li>Gestion de contenu web et produits e-commerce</li>
+                                    <li>Création de visuels et supports de communication</li>
+                                </ul>
+                            </li>
+                            <li>2022 <br>
+                                <b>Assistant communication digitale</b>
+                                <br>
+                                <em>Agrial (Caen) & Origenplus (Lisieux)</em>
+                                <ul>
+                                    <li>Réalisation d'une vidéo promotionnelle et d'un tutoriel vidéo</li>
+                                </ul>
+                            </li>
+                            <li>2020 - 2022 <br>
+                                <b>Salarié agricole</b>
+                                <br>
+                                <em>Exploitation agricole familiale (Aisne)</em>
+                                <ul>
+                                    <li>Travaux agricoles et entretien des machines</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="formations">
+                        <h5>Formations</h5>
+                        <ul>
+                            <li>2024-2025
+                                <br>
+                                <b>Développeur d'application JavaScript React</b>
+                                <br>
+                                <em>OpenClassrooms</em>
+                            </li>
+                            <li>2023-2024
+                                <br>
+                                <b>Développeur Web & Web mobile</b>
+                                <br>
+                                <em>La Manu - Le Havre</em>
+                            </li>
+                            <li>2022-2023
+                                <br>
+                                <b>Bachelor Webmarketing & Social media</b>
+                                <br>
+                                <em>My Digital School - Caen</em>
+                            </li>
+                            <li>2016-2018
+                                <br>
+                                <b>BTS Analyse, Conduite et Stratégie de l'Entreprise agricole</b>
+                                <br>
+                                <em>Institut de Genech (59)</em>
+                            </li>
+                            <li>2015-2016
+                                <br>
+                                <b>Baccalauréat Scientiqique</b>
+                                <br>
+                                <em>Institution St Michel - Solesmes (59)</em>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
-
-    </div>
-    <br>
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script>
-        var map = L.map('mapid').setView([49.3683333, 0.0825], 9);
-
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-
-        L.marker([49.35866165161133, 0.09121593832969666]).addTo(map)
-            .bindPopup("J'habite ici");
-
-    </script>
+        <br>
+        <script src="include.js"></script>
 </body>
 
 </html
