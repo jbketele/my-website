@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    width: auto;
+    background-color: rgba(217, 217, 217, 0.8);
+    padding: 0%;
+}
+
+body {
+    height: 100vh;
+}
+
+.page-home {
+    background-image: url(../imgs/imgs-prod/hero.avif);
+    background-size: 100vw 100vh;
+    backdrop-filter: contrast(0.5);
+}
+
+.page-real {
+    background-image: url(../imgs//imgs-prod/pencil-pen-notebooks-near-keyboard-eyeglasses-cup.avif);
+    background-size: cover;
+}
+
+.page-photo {
+    background-image: url(../imgs/imgs-prod/top-view-autumn-leaves-with-camera-acorns.avif);
+    background-size: cover;
+    backdrop-filter: sepia(1);
+}
+
+.page-nature {
+    height: 100%;
+    background-image: url(../imgs/imgs-prod/vertical-closeup-shot-sweet-grass-branches-field.avif);
+    background-size: cover;
+    backdrop-filter: sepia(1);
+}
+
+.page-product {
+    height: 100%;
+    background-image: url(../imgs/imgs-prod/wooden-floor-with-concrete-wall.avif);
+    background-size: cover;
+}
+
+.page-event {
+    background-image: url(../imgs/imgs-prod/vertical-closeup-shot-sweet-grass-branches-field.avif);
+    background-size: cover;
+}
+
+.page-videos {
+    background-image: url(../imgs/imgs-prod/flooring-clean-wallpaper-old-color.avif);
+    background-size: cover;
+    backdrop-filter: contrast(0.5);
+}
+
+.page-social-media,
+.page-design {
+    height: 100%;
+    background-image: url(../imgs/imgs-prod/fond-design.avif);
+    background-size: cover;
+}
+
+.page-jo2024 {
+    background-image: url(../imgs/imgs-prod/la-seine.avif);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.page-basket {
+    background-image: url(../imgs/imgs-prod/fond-basket.avif);
+    background-size: cover;
+    backdrop-filter: sepia(1);
+}
+
+@media (max-width: 767px) {
+
+    .page-real,
+    .page-photo,
+    .page-nature,
+    .page-product,
+    .page-event,
+    .page-design {
+        background-color: burlywood;
+    }
+
+    .page-videos {
+        background-color: wheat;
+    }
+
+    .page-social-media {
+        background-color: seashell;
+    }
+
+}
+
+section {
+    width: 100%;
+}
+
+.landing {
+    height: 86vh;
+}
+
+.logo {
+    height: 5rem;
+}
+
+.card-img-top {
+    width: 50%;
+}
+
+.field {
+    height: 40rem;
+    width: 100vw;
+    padding: 0%;
+    position: absolute;
+    margin: 0;
+}
+
+.background {
+    width: 100vw;
+}
+
+.field2 {
+    width: 100vw;
+    filter: opacity(0.5);
+    position: absolute;
+}
+
+#field3 {
+    height: 100rem;
+}
+
+.landing h1 {
+    -webkit-text-stroke-width: 1px;
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+}
+
+.name {
+    margin-top: 25vh;
+}
+
+.moodboard {
+    width: 30vw;
+}
+
+.banniere {
+    width: 100%;
+}
+
+.boite-nike {
+    width: 45%;
+}
+
+.presse {
+    width: 32%;
+}
+
+.affiche-long {
+    width: 57%;
+    margin-left: 2rem;
+}
+
+.insta {
+    width: 25%;
+}
+
+.phoenix {
+    width: 75%;
+}
+
+.fond-mobile {
+    width: 19%;
+}
+
+.french-team {
+    width: 33%;
+}
+
+.legends {
+    width: 33%;
+}
+
+@media (max-width:767px) {
+    .accroche {
+        text-align: center;
+    }
+
+    .paille-video {
+        flex-wrap: wrap;
+    }
+
+    .gallery h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+
+    .landing {
+        height: 69vh;
+    }
+
+}
+
+
+.main {
+    padding-top: 10vh;
+    padding-bottom: auto;
+}
+
+.paille-video {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cards {
+    padding-top: 2rem;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    padding-left: 0%;
+}
+
+.pic {
+    padding: 0;
+}
+
+.video-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.gallery {
+    color: #313437;
+}
+
+.gallery p {
+    color: #7d8285;
+}
+
+.gallery h2 {
+    font-weight: bold;
+    color: inherit;
+}
+
+
+.gallery .intro p {
+    margin-bottom: 0;
+}
+
+.gallery .photos {
+    padding-bottom: 20px;
+}
+
+.gallery .item {
+    padding-bottom: 30px;
+}
