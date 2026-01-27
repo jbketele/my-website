@@ -140,6 +140,7 @@ a:hover {
 
 .name {
     margin-top: 25px;
+    font-size: 1.5rem;
 }
 
 .asso-logos {
@@ -184,6 +185,20 @@ a:hover {
     .propos {
         width: 90%;
     }
+}
+
+.title-real {
+    color: white;
+    text-align: center;
+    font-size: 1.75rem;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    backdrop-filter: brightness(0.5);
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 1.25rem;
 }
 
 section {
