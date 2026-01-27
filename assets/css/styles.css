@@ -85,6 +85,11 @@ body {
     backdrop-filter: sepia(1);
 }
 
+.page-about {
+    background-image: url(../imgs/imgs-prod/field-with-spikelets-close-up-background-with-wheat-spikelets.avif);
+    background-size: cover;
+}
+
 @media (max-width: 767px) {
 
     .page-real,
@@ -104,6 +109,81 @@ body {
         background-color: seashell;
     }
 
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    opacity: 0.7;
+}
+
+.left-part {
+    margin-top: -80px;
+}
+
+.title-about {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.portrait {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name {
+    margin-top: 25px;
+}
+
+.asso-logos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.asso {
+    width: 40%;
+}
+
+.asso p {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.asso-logo {
+    width: 100%;
+    height: 175px;
+}
+
+.propos-content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.cv {
+    display: flex;
+}
+
+.cv div {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .page-about {
+        background-color: tan;
+    }
+
+    .propos {
+        width: 90%;
+    }
 }
 
 section {
@@ -148,10 +228,6 @@ section {
     -webkit-text-stroke-width: 1px;
     color: rgba(255, 255, 255, 0.7);
     font-style: italic;
-}
-
-.name {
-    margin-top: 25vh;
 }
 
 .moodboard {
