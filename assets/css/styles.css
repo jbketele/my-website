@@ -61,9 +61,9 @@ body {
 }
 
 .page-videos {
+    height: 100%;
     background-image: url(../imgs/imgs-prod/flooring-clean-wallpaper-old-color.avif);
     background-size: cover;
-    backdrop-filter: contrast(0.5);
 }
 
 .page-social-media,
@@ -190,7 +190,7 @@ a:hover {
 .title-real {
     color: white;
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 2rem;
     padding-top: 2vh;
     padding-bottom: 2vh;
     backdrop-filter: brightness(0.5);
@@ -199,6 +199,42 @@ a:hover {
 .card-title {
     font-weight: 500;
     font-size: 1.25rem;
+}
+
+.intro {
+    margin-top: 2vh;
+}
+
+.back-btn {
+    position: absolute;
+
+}
+
+.title-pic {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.75rem;
+    text-align: center;
+    color: white;
+    backdrop-filter: brightness(0.5);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-bottom: 1.5rem;
+}
+
+.video-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-agrial {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 section {
@@ -347,12 +383,6 @@ section {
 .gallery p {
     color: #7d8285;
 }
-
-.gallery h2 {
-    font-weight: bold;
-    color: inherit;
-}
-
 
 .gallery .intro p {
     margin-bottom: 0;
