@@ -37,6 +37,7 @@ body {
 }
 
 .page-photo {
+    height: 100%;
     background-image: url(../imgs/imgs-prod/top-view-autumn-leaves-with-camera-acorns.avif);
     background-size: cover;
     backdrop-filter: sepia(1);
@@ -80,6 +81,7 @@ body {
 }
 
 .page-basket {
+    height: 100%;
     background-image: url(../imgs/imgs-prod/fond-basket.avif);
     background-size: cover;
     backdrop-filter: sepia(1);
@@ -237,6 +239,18 @@ a:hover {
     object-fit: cover;
 }
 
+.fb-post {
+    max-width: 500px;
+    width: 100%;
+}
+
+.title-basket {
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 2rem;
+}
+
 section {
     width: 100%;
 }
@@ -290,36 +304,36 @@ section {
 }
 
 .boite-nike {
-    width: 45%;
+    width: 100%;
 }
 
 .presse {
-    width: 32%;
+    width: 70%;
 }
 
 .affiche-long {
-    width: 57%;
+    width: 100%;
     margin-left: 2rem;
 }
 
 .insta {
-    width: 25%;
+    width: 100%;
 }
 
 .phoenix {
-    width: 75%;
+    width: 100%;
 }
 
 .fond-mobile {
-    width: 19%;
+    width: 80%;
 }
 
 .french-team {
-    width: 33%;
+    width: 70%;
 }
 
 .legends {
-    width: 33%;
+    width: 70%;
 }
 
 @media (max-width:767px) {
